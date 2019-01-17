@@ -4,8 +4,7 @@ def turn_count(board)
   board.each do |index| 
     if index == "X" || index == "O"
       counter += 1
-      number_of_turns = counter
     end 
-    return number_of_turns
+    counter
     end
 end
